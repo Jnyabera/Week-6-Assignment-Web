@@ -1,0 +1,38 @@
+body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    .form-container {
+      background: white;
+      padding: 20px;
+      max-width: 400px;
+      margin: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    input, button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .error {
+      color: red;
+      font-size: 0.9em;
+    }
+    .success {
+      color: green;
+      font-size: 1em;
+    }
+    .interactive-box {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #e0f7fa;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid #0097a7;
+      border-radius: 5px;
+    }
